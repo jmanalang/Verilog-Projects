@@ -1,0 +1,15 @@
+module hw8_circuit_Problem_4_49 (A,B,C,D,f1,f2);
+	input A,B,C,D;
+	output f1,f2;
+	wire t1, t2, t3 ,t4, nota, notb, notd;
+	not g1(notb, B);
+	and g2(t1, c, notb);
+	not g3(nota, A);
+	and g4(t2, nota, C);
+	or g5 (t3, t1, A);
+	nor g6 (t4, t2, D);
+	not g7 (notd, D);
+	or g8 (f2, notd, t2);
+	or g9 (f1, t3,t4);
+endmodule
+	

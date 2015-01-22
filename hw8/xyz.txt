@@ -1,0 +1,35 @@
+Script started on Wed 20 Nov 2013 01:15:54 PM EST
+timberlake {~/cse241/hw8} > lsvvp hw8.vcd[29G[14@iverilog hw8.v -o[54G
+hw8.v: No such file or directory
+No top level modules, and no -s option.
+timberlake {~/cse241/hw8} > iverilog hw8.v -o hw8.vcd[29Gls[Kvvp hw8.vcd[29G[7@gtkwave hw8_wv.vcd[29Gxeyes[K[29Gcd cse241 241[29Gvi hw8.v[K[29Ggtkwave[K[31G[Pwave[29Gvim hw8.v[29G[Pmk[37G[29Gvvp adder.vcd[29G[16@iverilog adder.v -o[58G[43G,[58G[43G.[58G[29G[16Pvvp[42G[29Gmk hw8.v[K[29G[1@vim[38G[29Ggtwave[K[1@kwave[29Gvi hw8.v[29Gcd cse 241241[K[29Gxeyes[K[29Ggtkwave hw8_wv.vcd[29G[7Pvvp hw8.vcd[29Gls[Kiverilog hw8.v -o hw8.vcd[29G[Kiverilog hw8.v -o hw8.vcd[29Gls[Kvvp hw8.vcd[29G[7@gtkwave hw8_wv.vcd[29Gxeyes[K[29Gcd cse241 241[29Gvi hw8.v[K[29Ggtkwave[K[31G[Pwave[29Gvim hw8.v[29G[Pmk[37G[29Gvvp adder.vcd[29G[16@iverilog adder.v -o[58Gg [Pd[P[P[P[P[1@x[1@y[1@z.v -o [Pd[P[P[P[P[1@x[1@y[1@z
+timberlake {~/cse241/hw8} > iverilog xyz.v -o xyz.vcd[38Ghw8.v -o hw8.vcd[29Gls[Kvvp hw8.vcd[P[P[P[1@x[1@y[1@z
+VCD info: dumpfile xyz_wv.vcd opened for output.
+Clock 0 reset_b: x  A: z  B:  z
+Clock 0 reset_b: 1  A: z  B:  z
+Clock 0 reset_b: 0  A: z  B:  z
+Clock 0 reset_b: 1  A: z  B:  z
+Clock 1 reset_b: 1  A: z  B:  z
+Clock 0 reset_b: 1  A: z  B:  z
+Clock 1 reset_b: 1  A: z  B:  z
+Clock 0 reset_b: 1  A: z  B:  z
+Clock 1 reset_b: 1  A: z  B:  z
+Clock 0 reset_b: 1  A: z  B:  z
+Clock 1 reset_b: 1  A: z  B:  z
+Clock 0 reset_b: 1  A: z  B:  z
+Clock 1 reset_b: 1  A: z  B:  z
+Clock 0 reset_b: 1  A: z  B:  z
+Clock 1 reset_b: 1  A: z  B:  z
+Clock 0 reset_b: 1  A: z  B:  z
+Clock 1 reset_b: 1  A: z  B:  z
+Clock 0 reset_b: 1  A: z  B:  z
+Clock 1 reset_b: 1  A: z  B:  z
+Clock 0 reset_b: 1  A: z  B:  z
+Clock 1 reset_b: 1  A: z  B:  z
+Clock 0 reset_b: 1  A: z  B:  z
+Clock 1 reset_b: 1  A: z  B:  z
+Clock 0 reset_b: 1  A: z  B:  z
+timberlake {~/cse241/hw8} > w[Kexit
+exit
+
+Script done on Wed 20 Nov 2013 01:17:20 PM EST
